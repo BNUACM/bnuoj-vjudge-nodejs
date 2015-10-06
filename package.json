@@ -1,0 +1,18 @@
+{
+  "name": "bnuoj-vjudge",
+  "version": "0.0.1",
+  "description": "A nodejs version of virtual judger for BNUOJ",
+  "author": "Chao Yi <yichaonet@gmail.com>",
+  "scripts": {
+    "start": "npm install && node --harmony app.js"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "network-byte-order": "*",
+    "promise": "*",
+    "unirest": "*"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "license": "GPLv3"
+}
